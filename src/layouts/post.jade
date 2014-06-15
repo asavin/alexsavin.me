@@ -1,0 +1,10 @@
+extends main
+
+block content
+
+  main.base
+    div.about-overview
+      h2
+        | #{document.name}
+      div!= document.output
+

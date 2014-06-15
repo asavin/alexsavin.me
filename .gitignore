@@ -1,7 +1,7 @@
 *.js
 
-!node_modules/**
-!generate/node_modules/**
+node_modules/
+generate/node_modules/
 
 out
 
