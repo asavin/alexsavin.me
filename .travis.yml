@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+  - '0.10'
+
+branches:
+  only:
+    - master
+
+before_install:
+  - cd generate; npm install; cd ..
+
+script:
+  - lsc generate/bin/generate.ls
+
+cache:
+  directories:
+    - generate/node_modules
