@@ -20,10 +20,11 @@ cache:
   - node_modules
 deploy:
   provider: s3
-  bucket: "alexsavin.me"
+  bucket: alexsavin.me
   skip_cleanup: true
-  endpoint: "alexsavin.me.s3-website-eu-west-1.amazonaws.com"
-  region: "EU (Ireland) Region"
+  local-dir: out
+  endpoint: alexsavin.me.s3-website-eu-west-1.amazonaws.com
+  region: eu-west-1
   access_key_id:
     secure: H1ht8YckYuuDsroCPWPzm6LqRCKOmuwlTMWckuqd3ydPyLqRr732ybVIxlwgXDzCIE302jzTMeccyE/+pfhrSwy3K/UrptyXhLLGLQBLDnL3pTsTgdz03AG1AhUhtap/zEX6Ek81WOZKQwO5MbgOAsplo+qbsyByHn6Bgn2hrUw=
   secret_access_key:
