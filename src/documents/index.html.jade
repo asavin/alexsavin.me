@@ -6,5 +6,7 @@ extends ../layouts/main
 
 block content
   main
-    h1 Greetings, stranger
-    div This is index page
+    h1 Alexander Savin blog
+    each post in posts
+      h3!= post.title
+      div!= post.body

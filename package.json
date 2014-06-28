@@ -5,11 +5,9 @@
   "dependencies": {
     "LiveScript": "^1.2.0",
     "bluebird": "",
-    "component": "~0.19.5",
     "config": "",
     "debug": "",
     "diacritics": "",
-    "express": "3.5.1",
     "front-matter": "",
     "http-proxy": "1.0.3",
     "js-yaml": "",
@@ -17,33 +15,12 @@
     "prelude-ls": "1.0.3",
     "prompt": "",
     "require-dir": "",
-    "superagent": "",
     "to-slug-case": "",
     "to-title-case": "",
-    "underscore": ""
+    "underscore": "",
+    "marked": ""
   },
   "devDependencies": {
-    "chai": "",
-    "component-coffee": "",
-    "component-jade": "0.5.0",
-    "component-less": "",
-    "component-json": "",
-    "component-livescript": "https://github.com/redbadger/component-livescript/tarball/master",
-    "component-minify": "",
-    "grunt": "",
-    "grunt-cli": "",
-    "grunt-component-build": "0.4.3",
-    "grunt-combine": "",
-    "grunt-contrib-clean": "",
-    "grunt-contrib-watch": "",
-    "grunt-contrib-connect": "",
-    "grunt-livescript": "",
-    "grunt-shell": "",
-    "LiveScript": "",
-    "mocha": "",
-    "phantomjs": "",
-    "mocha-phantomjs": "",
-    "grunt-mocha-phantomjs": "",
-    "grunt-contrib-imagemin": "~0.4.1"
+    "LiveScript": ""
   }
 }
