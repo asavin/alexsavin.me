@@ -11,8 +11,8 @@ document-name = split '/' >> last >> split '.' >> first
 
 contains = (a, b) --> (b.index-of a) isnt -1
 is-type = (a, item) --> contains a, item.path
-is-post-eng = is-type '/posts/eng/'
-is-post-ru = is-type '/posts/ru/'
+is-post-eng = is-type '/eng/posts/'
+is-post-ru = is-type '/ru/posts/'
 
 # document indexes
 
