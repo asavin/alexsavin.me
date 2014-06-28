@@ -2,6 +2,9 @@
 @import url("typeplate.css");
 @import url("fonts.css");
 @import "_grid.less";
+@import "_header.less";
+
+@black: #444;
 
 body {
   margin: 0 auto;
@@ -13,6 +16,27 @@ main {
 }
 
 .post-container {
-  .column(8);
-  .push(2);
+  .column(10);
+  .push(1);
+}
+
+@media (min-width: 800px) {
+  .post-container {
+    .column(8);
+    .push(2);
+  }
+}
+
+h2.main-title {
+  margin: 20px 0 0;
+  text-align: center;
+}
+
+.index-page {
+  .post-container {
+
+    p:first-child {
+
+    }
+  }
 }

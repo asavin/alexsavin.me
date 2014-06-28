@@ -11,32 +11,38 @@ document-name = split '/' >> last >> split '.' >> first
 
 contains = (a, b) --> (b.index-of a) isnt -1
 is-type = (a, item) --> contains a, item.path
-is-post = is-type '/posts/'
+is-post-eng = is-type '/posts/eng/'
+is-post-ru = is-type '/posts/ru/'
 
 # document indexes
 
 documents-by-path = {}
-posts = []
+posts-eng = []
+posts-ru = []
+
+make-post = ->
+  post = {}
+  post.body = marked it.body
+  post.title = it.attributes.name
+  post
 
 module.exports =
+
   prepare: (items) ->
     console.log "Preparing"
 
     items |> each (item) ->
-      | is-post item
-        post = {}
-        post.body = marked item.body
-        post.title = item.attributes.name
-        posts.push post
+      | is-post-eng item
+        posts-eng.push (make-post item)
+      | is-post-ru item
+        posts-ru.push (make-post item)
 
       console.log item.path
       documents-by-path[item.path] = item
 
   globals: (items) ->
-    console.log "Figuring out globals"
-    console.log posts
-
     title: ->
       if it.title  then "#{it.title} | #site-title" else site-title
 
-    posts: posts
+    posts-eng: posts-eng
+    posts-ru: posts-ru
