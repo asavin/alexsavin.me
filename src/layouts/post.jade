@@ -1,8 +1,11 @@
 extends main
 
+include ../documents/eng/header
+
 block content
 
   main.base
+    mixin header
     div.post-container
       h2
         | #{document.name}

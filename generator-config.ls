@@ -1,5 +1,5 @@
 
-require! <[ marked ]>
+require! <[ marked to-slug-case ]>
 
 # configuration options
 
@@ -24,6 +24,7 @@ make-post = ->
   post = {}
   post.body = marked it.body
   post.title = it.attributes.name
+  post.url = it.attributes.url
   post
 
 module.exports =

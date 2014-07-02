@@ -1,0 +1,6 @@
+mixin postList(posts)
+  each post in posts
+    div.post-container
+      a(href=post.url class="header-link")
+        h3!= post.title
+      div!= post.body

@@ -5,11 +5,10 @@ name : index
 extends ../layouts/main
 
 include ./eng/header
+include ../layouts/mixins/postList
 
 block content
   main.index-page
     mixin header
-    each post in postsEng
-      div.post-container
-        h3!= post.title
-        div!= post.body
+    +postList(postsEng)
+
