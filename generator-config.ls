@@ -4,6 +4,7 @@ require! <[ marked to-slug-case ]>
 # configuration options
 
 site-title = "Alex Savin blog"
+cut-mark = /\nMore...\n/i
 
 # internal helpers
 
@@ -22,7 +23,21 @@ posts-ru = []
 
 make-post = ->
   post = {}
-  post.body = marked it.body
+  mark = []
+  console.log cut-mark.test it.body
+
+  # Check if we have cut mark
+  if (cut-mark.test it.body) is true
+    mark = lines (it.body.match cut-mark).0
+    post-parts = split '\n' + mark.1 + '\n' it.body
+    post.preview = marked post-parts.0
+    post.body = marked join '\n' post-parts
+    post.read-more = true
+  else
+    post.body = marked it.body
+    post.preview = post.body
+    post.read-more = false
+
   post.title = it.attributes.name
   post.url = it.attributes.url
   post

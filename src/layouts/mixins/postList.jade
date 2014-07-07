@@ -1,6 +1,9 @@
 mixin postList(posts)
   each post in posts
     div.post-container
-      a(href=post.url class="header-link")
-        h3!= post.title
-      div!= post.body
+      a.header-link(href=post.url)
+        h3.title!= post.title
+      div!= post.preview
+      if post.readMore
+        div.read-more
+          a(href=post.url) Read more...

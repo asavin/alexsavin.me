@@ -6,6 +6,12 @@
 
 @black: #444;
 
+// Mixins
+
+.bold() {
+  font-family: 'charis_silbold';
+}
+
 body {
   margin: 0 auto;
 }
@@ -18,6 +24,16 @@ main {
 .post-container {
   .column(10);
   .push(1);
+
+  .title {
+    text-transform: capitalize;
+  }
+
+  .read-more a {
+    .bold();
+    text-decoration: none;
+    color: #444;
+  }
 }
 
 @media (min-width: 800px) {
