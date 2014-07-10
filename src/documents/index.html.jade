@@ -12,6 +12,7 @@ block content
     mixin header
     +postList(postsEng)
     div.post-container.rss-feed
-      a.rss-feed-link(href='/feed.rss')
+      a.rss-feed-link(href='/feed.xml')
         img(src='/images/rss.png')
+      link(rel="alternate" type="application/rss+xml" href="http://alexsavin.me/feed.xml")
 

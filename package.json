@@ -19,7 +19,7 @@
     "to-title-case": "",
     "underscore": "",
     "marked": "",
-    "feed": ""
+    "rss": ""
   },
   "devDependencies": {
     "LiveScript": ""
