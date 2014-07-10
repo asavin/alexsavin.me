@@ -11,4 +11,7 @@ block content
   main.index-page
     mixin header
     +postList(postsEng)
+    div.post-container.rss-feed
+      a.rss-feed-link(href='/feed.rss')
+        img(src='/images/rss.png')
 

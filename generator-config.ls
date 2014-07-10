@@ -1,5 +1,5 @@
 
-require! <[ marked to-slug-case ]>
+require! <[ marked to-slug-case feed moment ]>
 
 # configuration options
 
@@ -40,7 +40,32 @@ make-post = ->
 
   post.title = it.attributes.name
   post.url = it.attributes.url
+  post.date = it.attributes.date
+
+
   post
+
+export-feed = ->
+  rssfeed = new feed do
+    title: 'Alexander Savin blog'
+    description: 'Posts in english'
+    link: 'http://alexsavin.me/'
+    image: '/images/rss.png'
+    copyright: 'Creative Commons Attribution 4.0 International (CC BY 4.0)'
+    author:
+      name: 'Alexander Savin'
+      email: 'karismafilms@gmail.com'
+      link: 'http://alexsavin.me'
+
+  for post in it
+    rssfeed.item {
+      title: post.title
+      link: "http://alexsavin.me/#{post.url}"
+      description: post.preview
+      date: new Date post.date
+    }
+
+  rssfeed.render 'rss-2.0'
 
 module.exports =
 
@@ -57,6 +82,9 @@ module.exports =
       documents-by-path[item.path] = item
 
   globals: (items) ->
+    fs.writeFile 'out/feed.rss', (export-feed posts-eng), (err) ->
+      throw err if err
+
     title: ->
       if it.title  then "#{it.title} | #site-title" else site-title
 

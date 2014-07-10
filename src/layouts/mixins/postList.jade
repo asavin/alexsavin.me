@@ -3,7 +3,7 @@ mixin postList(posts)
     div.post-container
       a.header-link(href=post.url)
         h3.title!= post.title
-      div!= post.preview
+      div.post-preview!= post.preview
       if post.readMore
         div.read-more
           a(href=post.url) Read more...

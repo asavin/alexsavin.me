@@ -34,6 +34,15 @@ main {
     text-decoration: none;
     color: #444;
   }
+
+  &.rss-feed {
+    text-align: right;
+    .rss-feed-link {
+      img {
+        width: 30px;
+      }
+    }
+  }
 }
 
 @media (min-width: 800px) {
@@ -53,4 +62,8 @@ main {
 
     }
   }
+}
+
+.post-preview, .post-container p {
+  text-align: justify;
 }
