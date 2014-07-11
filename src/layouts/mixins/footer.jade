@@ -1,0 +1,7 @@
+mixin footer(lang)
+  footer
+    div.rss-feed
+      a.rss-feed-link(href='/feed-#{lang}.xml')
+        img(src='/images/rss.png')
+      link(rel="alternate" type="application/rss+xml" href="http://alexsavin.me/feed-#{lang}.xml")
+

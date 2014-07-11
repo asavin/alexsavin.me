@@ -60,7 +60,7 @@ export-feed = ->
   for post in it
     rssfeed.item {
       title: post.title
-      url: "http://alexsavin.me/#{post.url}"
+      url: "http://alexsavin.me#{post.url}"
       description: post.preview
       date: new Date post.date
     }
@@ -70,7 +70,7 @@ export-feed = ->
 module.exports =
 
   prepare: (items) ->
-    console.log "Preparing"
+    console.log "Preparing items..."
 
     items |> each (item) ->
       | is-post-eng item
@@ -82,7 +82,12 @@ module.exports =
       documents-by-path[item.path] = item
 
   globals: (items) ->
-    fs.writeFile 'out/feed.xml', (export-feed posts-eng), (err) ->
+    console.log "Preparing globals..."
+
+    fs.writeFile 'out/feed-eng.xml', (export-feed posts-eng), (err) ->
+      throw err if err
+
+    fs.writeFile 'out/feed-ru.xml', (export-feed posts-ru), (err) ->
       throw err if err
 
     title: ->
