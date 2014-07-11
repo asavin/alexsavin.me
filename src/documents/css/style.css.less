@@ -9,7 +9,11 @@
 // Mixins
 
 .bold() {
-  font-family: 'charis_silbold';
+  font-family: 'charis_silbold', 'Book Antiqua', 'Palatino', 'Palatino Linotype', 'Palatino LT STD', 'Georgia', 'serif';
+}
+
+.normal() {
+  font-family: 'charis_silregular', 'Book Antiqua', 'Palatino', 'Palatino Linotype', 'Palatino LT STD', 'Georgia', 'serif';
 }
 
 html {
@@ -38,15 +42,36 @@ main {
 
   .title {
     text-transform: capitalize;
+    .normal();
   }
 
   .read-more {
     text-indent: 1.5em;
+  }
 
-    a {
-      .bold();
-      text-decoration: none;
-      color: #444;
+  a {
+    .bold();
+    text-decoration: none;
+    color: #444;
+  }
+
+  ul, ol {
+    margin-bottom: 1.5em;
+  }
+
+  ul {
+    li {
+      list-style-type: square;
+      list-style-position: inside;
+      text-indent: 1.5em;
+    }
+  }
+
+  ol {
+    li {
+      list-style-type: decimal;
+      list-style-position: inside;
+      text-indent: 1.5em;
     }
   }
 }
