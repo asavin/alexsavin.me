@@ -3,12 +3,9 @@ name : index
 ---
 
 extends ../layouts/main
-
-include ./eng/header
 include ../layouts/mixins/postList
 
 block content
   main.index-page
-    mixin header
     +postList(postsEng)
 

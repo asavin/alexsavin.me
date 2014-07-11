@@ -3,11 +3,8 @@ name : index
 ---
 
 extends ../../layouts/main-ru
-
-include header
 include ../../layouts/mixins/postList
 
 block content
   main.index-page
-    mixin header
     +postList(postsRu)

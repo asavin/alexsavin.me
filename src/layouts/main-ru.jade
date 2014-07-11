@@ -1,3 +1,4 @@
+include mixins/header
 include mixins/footer
 
 doctype html
@@ -5,7 +6,7 @@ html
   head
     title
       block title
-      | Alexander Savin blog
+      | Блог Александра Савина
 
     block meta
     meta(charset="UTF-8")
@@ -20,5 +21,6 @@ html
     link(rel='stylesheet', href='/css/style.css')
 
   body
+    +header('ru')
     block content
     +footer('ru')

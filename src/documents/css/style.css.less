@@ -12,27 +12,42 @@
   font-family: 'charis_silbold';
 }
 
+html {
+  font-family: 'charis_silregular', 'Book Antiqua', 'Palatino', 'Palatino Linotype', 'Palatino LT STD', 'Georgia', 'serif';
+}
+
 body {
   margin: 0 auto;
+
+  a {
+    text-decoration: none;
+  }
 }
 
 main {
   .row();
-  font-family: 'charis_silregular', 'Book Antiqua', 'Palatino', 'Palatino Linotype', 'Palatino LT STD', 'Georgia', 'serif';
 }
 
 .post-container {
   .column(10);
   .push(1);
 
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+  margin-bottom: 40px;
+
   .title {
     text-transform: capitalize;
   }
 
-  .read-more a {
-    .bold();
-    text-decoration: none;
-    color: #444;
+  .read-more {
+    text-indent: 1.5em;
+
+    a {
+      .bold();
+      text-decoration: none;
+      color: #444;
+    }
   }
 }
 
@@ -45,13 +60,6 @@ main {
 
 .index-page {
   .post-container {
-    .header-link {
-      text-decoration: none;
-    }
-
-    p:first-child {
-
-    }
   }
 }
 
