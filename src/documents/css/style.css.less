@@ -87,6 +87,31 @@ main {
   }
 }
 
+.post-container {
+  blockquote {
+    position: relative;
+    padding: 1em;
+  }
+  blockquote:before,
+  blockquote:after {
+    height: 1em;
+    opacity: 0.15;
+    position: absolute;
+    font-size: 3.5em;
+    color: #dc976e;
+  }
+  blockquote:before {
+    content: '“';
+    top: 0;
+    left: 0;
+  }
+  blockquote:after {
+    content: '”';
+    bottom: 0;
+    right: 0;
+  }
+}
+
 .post-preview, .post-container p {
   text-align: left;
 }

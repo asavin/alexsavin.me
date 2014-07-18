@@ -93,5 +93,5 @@ module.exports =
     title: ->
       if it.title  then "#{it.title} | #site-title" else site-title
 
-    posts-eng: posts-eng
-    posts-ru: posts-ru
+    posts-eng: reverse posts-eng
+    posts-ru: reverse posts-ru

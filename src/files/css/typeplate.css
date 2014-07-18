@@ -280,7 +280,6 @@ samp,
 tt,
 var,
 xmp {
-	/* Accepted values: [ none | manual | auto ] */ /* http://meyerweb.com/eric/thoughts/2012/12/17/where-to-avoid-css-hyphenation */
 	-webkit-hyphens: none; /* Safari 5.1 thru 6, iOS 4.2 thru 6 */
 	-moz-hyphens: none; /* Firefox 16 thru 20 */
 	-ms-hyphens: none; /* IE10 */
