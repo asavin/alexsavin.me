@@ -11,7 +11,7 @@ env:
   - secure: Klr4PtR/PqS4t3dMG4GEoBL6kcufuiSoHTjeWrpydUeskF2coAj2/1u6fNJa5O5Om1phOm6vCMbk7r5vgFVZljJ31XVHJcvYoWcGo18jO9x6Kh30zB4Ae1/jyqLgyXv3j8Lmy19+jaiQeigVMIX0eLCjync4YV9VQ7j8gNcORG4=
   - secure: MM9okAszUTZsR1wCsXdbgHxnzBBr671yA9UhjkXIYGCdkomtl+Z2w6EWViRJuVGk7TfjS3g+9FLtu+dmme/4FurBL9tLZXsdGD0VbPHZ+HGglfjCSutqXTqmOODZ441WNm51YOpxxEfJu9SPRVA5+26LoG2XU3Ggqv06XnOiLTs=
 script:
-- lsc generate/bin/generate.ls
+- ./generate/bin/generator
 deploy:
   provider: s3
   bucket: alexsavin.me
