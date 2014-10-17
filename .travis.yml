@@ -4,8 +4,6 @@ node_js:
 branches:
   only:
   - master
-before_install:
-- cd generate; npm install; cd ..
 env:
   global:
   - S3_BUCKET=alexsavin.me
