@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-- '0.10.24'
+- '0.10'
 branches:
   only:
   - master
@@ -14,10 +14,6 @@ env:
   - secure: MM9okAszUTZsR1wCsXdbgHxnzBBr671yA9UhjkXIYGCdkomtl+Z2w6EWViRJuVGk7TfjS3g+9FLtu+dmme/4FurBL9tLZXsdGD0VbPHZ+HGglfjCSutqXTqmOODZ441WNm51YOpxxEfJu9SPRVA5+26LoG2XU3Ggqv06XnOiLTs=
 script:
 - lsc generate/bin/generate.ls
-cache:
-  directories:
-  - generate/node_modules
-  - node_modules
 deploy:
   provider: s3
   bucket: alexsavin.me
