@@ -1,6 +1,6 @@
 /node_modules
 
-out
+/out
 
 .DS_Store
 .npm_debug.log
