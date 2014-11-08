@@ -1,0 +1,13 @@
+extends main
+include mixins/postList
+
+block content
+  main.index-page
+    +postList(document.items)
+
+  //- main.base
+  //-   div.post-container
+  //-     h4.title
+  //-       | #{document.name}
+  //-     div!= document.output
+

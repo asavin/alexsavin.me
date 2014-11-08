@@ -3,9 +3,9 @@ require! <[ marked to-slug-case rss moment ]>
 
 # configuration options
 
-site-title = "Alex Savin blog"
-cut-mark = /\nMore...\n/i
-
+const site-title = "Alex Savin blog"
+const cut-mark = /\nMore...\n/i
+const posts-per-page = 5
 # internal helpers
 
 document-name = split '/' >> last >> split '.' >> first
@@ -17,7 +17,7 @@ is-post-ru = is-type '/ru/posts/'
 
 # document indexes
 
-documents-by-path = {}
+#documents-by-path = {}
 posts-eng = []
 posts-ru = []
 
@@ -41,7 +41,6 @@ make-post = ->
   post.title = it.attributes.name
   post.url = it.attributes.url
   post.date = it.attributes.date
-
 
   post
 
@@ -79,7 +78,43 @@ module.exports =
         posts-ru.push (make-post item)
 
       console.log item.path
-      documents-by-path[item.path] = item
+      #documents-by-path[item.path] = item
+
+    # Generator will take items array and generate all static
+    # files based on that. This means we can append more stuff
+    # into items and have some dynamic pages generated.
+
+    # Paginate posts on index page
+    # 5 posts per page
+
+    # Generating virtual index pages as long as
+    # there is enough items
+
+    posts-remaining = reverse posts-eng
+    page-number = 0
+
+    console.log 'Paginating...'
+
+    while posts-remaining.length > 0
+      console.log "Generating page #{page-number}"
+      posts-page = take posts-per-page, posts-remaining
+      posts-remaining = drop posts-per-page, posts-remaining
+      page-number += 1
+
+      page =
+        attributes:
+          name: "Page #{page-number}"
+          layout: 'page.jade'
+          url: "/eng/pages/#{page-number}/index.html"
+          items: posts-page
+        body: '' # Empty body since we pass all items in attr
+        path: "src/documents/pages/#{page-number}.md"
+        outpath: "out/eng/pages/#{page-number}/index.html"
+        type: 'md'
+
+      items = items.concat page
+
+    items
 
   globals: (items) ->
     console.log "Preparing globals..."
