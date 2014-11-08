@@ -4,6 +4,11 @@ include mixins/postList
 block content
   main.index-page
     +postList(document.items)
+    div.post-container
+      if document.morePagesAvailable
+        a.older-page(href='/eng/pages/' + document.nextPageNumber) Next page
+      else
+        | You've reached the end of this blog
 
   //- main.base
   //-   div.post-container

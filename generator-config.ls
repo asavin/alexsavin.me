@@ -107,10 +107,15 @@ module.exports =
           layout: 'page.jade'
           url: "/eng/pages/#{page-number}/index.html"
           items: posts-page
+          page-number: page-number
+          next-page-number: page-number + 1
+          more-pages-available: posts-remaining.length > 0
         body: '' # Empty body since we pass all items in attr
         path: "src/documents/pages/#{page-number}.md"
         outpath: "out/eng/pages/#{page-number}/index.html"
         type: 'md'
+
+      console.log page
 
       items = items.concat page
 
