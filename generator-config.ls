@@ -6,6 +6,7 @@ require! <[ marked to-slug-case rss moment ]>
 const site-title = "Alex Savin blog"
 const cut-mark = /\nMore...\n/i
 const posts-per-page = 5
+
 # internal helpers
 
 document-name = split '/' >> last >> split '.' >> first
@@ -14,10 +15,9 @@ contains = (a, b) --> (b.index-of a) isnt -1
 is-type = (a, item) --> contains a, item.path
 is-post-eng = is-type '/eng/posts/'
 is-post-ru = is-type '/ru/posts/'
+page-number = 0
 
 # document indexes
-
-#documents-by-path = {}
 posts-eng = []
 posts-ru = []
 
@@ -78,7 +78,6 @@ module.exports =
         posts-ru.push (make-post item)
 
       console.log item.path
-      #documents-by-path[item.path] = item
 
     # Generator will take items array and generate all static
     # files based on that. This means we can append more stuff
@@ -91,7 +90,6 @@ module.exports =
     # there is enough items
 
     posts-remaining = reverse posts-eng
-    page-number = 0
 
     console.log 'Paginating...'
 
@@ -99,7 +97,7 @@ module.exports =
       console.log "Generating page #{page-number}"
       posts-page = take posts-per-page, posts-remaining
       posts-remaining = drop posts-per-page, posts-remaining
-      page-number += 1
+      page-number:= page-number + 1
 
       page =
         attributes:
@@ -114,8 +112,6 @@ module.exports =
         path: "src/documents/pages/#{page-number}.md"
         outpath: "out/eng/pages/#{page-number}/index.html"
         type: 'md'
-
-      console.log page
 
       items = items.concat page
 
@@ -133,5 +129,6 @@ module.exports =
     title: ->
       if it.title  then "#{it.title} | #site-title" else site-title
 
-    posts-eng: reverse posts-eng
+    posts-eng: reverse posts-eng |> take posts-per-page
     posts-ru: reverse posts-ru
+    pages-available: page-number > 1

@@ -8,4 +8,7 @@ include ../layouts/mixins/postList
 block content
   main.index-page
     +postList(postsEng)
+    if pagesAvailable
+      div.post-container
+        a.older-page(href='/eng/pages/2') Next page
 
