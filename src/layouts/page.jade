@@ -1,0 +1,12 @@
+extends main
+include mixins/postList
+
+block content
+  main.index-page
+    +postList(document.items)
+    div.post-container
+      if document.pageNumber > 1
+        a.newer-page(href='/eng/pages/' + (document.pageNumber-1) ) Previous page
+      if document.morePagesAvailable
+        a.older-page(href='/eng/pages/' + document.nextPageNumber) Next page
+
