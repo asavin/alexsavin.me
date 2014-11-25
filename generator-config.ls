@@ -41,8 +41,12 @@ make-post = ->
   post.title = it.attributes.name
   post.url = it.attributes.url
   post.date = it.attributes.date
+  post.postdate = format-date it.attributes.date
 
   post
+
+format-date = ->
+  moment it .format 'DD MMM YYYY'
 
 export-feed = ->
 
@@ -76,6 +80,7 @@ module.exports =
         posts-eng.push (make-post item)
       | is-post-ru item
         posts-ru.push (make-post item)
+      item.attributes.date = format-date item.attributes.date
 
       console.log item.path
 

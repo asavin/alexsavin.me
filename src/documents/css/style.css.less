@@ -39,6 +39,20 @@ main {
   border-top: 1px solid #eee;
   padding-top: 20px;
   margin-bottom: 80px;
+  position: relative;
+
+  .date-bubble {
+    position: absolute;
+    left: -60px;
+    top: 24px;
+    width: 40px;
+    text-align: center;
+    font-size: 0.8em;
+    background-color: #333;
+    padding: 2px;
+    color: #eee;
+    border-radius: 5px;
+  }
 
   .title {
     .normal();
@@ -80,6 +94,16 @@ main {
     padding-bottom: 80px;
     .column(8);
     .push(2);
+  }
+}
+
+@media (max-width: 799px) {
+  .post-container {
+    .date-bubble {
+      position: static;
+      width: 100px;
+      margin: 0 0 10px 0;
+    }
   }
 }
 
