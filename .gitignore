@@ -1,6 +1,7 @@
 /node_modules
 
 /out
+/cert
 
 .DS_Store
 .npm_debug.log
