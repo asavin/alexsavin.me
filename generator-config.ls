@@ -21,6 +21,8 @@ page-number = 0
 posts-eng = []
 posts-ru = []
 
+tags = {}
+
 make-post = ->
   post = {}
   mark = []
@@ -78,11 +80,17 @@ module.exports =
     items |> each (item) ->
       | is-post-eng item
         posts-eng.push (make-post item)
+        console.log item.attributes.tags
+        if item.attributes.[]tags?
+          item.attributes.tags |> each ->
+            if tags[it] is undefined then tags[it]:= []
+            tags[it].push (make-post item)
       | is-post-ru item
         posts-ru.push (make-post item)
       item.attributes.date = format-date item.attributes.date
 
       console.log item.path
+      console.log tags
 
     # Generator will take items array and generate all static
     # files based on that. This means we can append more stuff

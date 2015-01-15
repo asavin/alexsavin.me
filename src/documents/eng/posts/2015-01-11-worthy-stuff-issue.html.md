@@ -2,6 +2,9 @@
 name : Worthy stuff to watch and read - 19
 date: Sun Jan 11 20:53:11 2015 (UTC+0000)
 layout: post.jade
+tags:
+- worthy
+- stuff
 ---
 
 ####Read
