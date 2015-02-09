@@ -6,7 +6,7 @@ layout: post.jade
 
 ####Read
 
-* The Duct Tape Programmer - good never gets old, and this write up by Joel Spolsky still very much relevant, although represents another extremity
+* The [Duct Tape](http://www.joelonsoftware.com/items/2009/09/23.html) Programmer - good never gets old, and this write up by Joel Spolsky still very much relevant, although represents another extremity
 
 >You see, everybody else is too afraid of looking stupid because they just can’t keep enough facts in their head at once to make multiple inheritance, or templates, or COM, or multithreading, or any of that stuff work. So they sheepishly go along with whatever faddish programming craziness has come down from the architecture astronauts who speak at conferences and write books and articles and are so much smarter than us that they don’t realize that the stuff that they’re promoting is too hard for us.
 
