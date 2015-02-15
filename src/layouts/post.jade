@@ -9,4 +9,10 @@ block content
       h4.title
         | #{document.name}
       div!= document.output
+      if document.tags
+        div.tags
+          ul
+            each tag in document.tags
+              li
+                a(href="/eng/tags/"+tag)!= tag
 
