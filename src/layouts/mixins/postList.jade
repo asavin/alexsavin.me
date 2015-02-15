@@ -9,3 +9,10 @@ mixin postList(posts)
       if post.readMore
         div.read-more
           a(href=post.url) Read more...
+      if post.tags
+        div.tags
+          ul
+            each tag in post.tags
+              li
+                a(href="/eng/tags/"+tag)!= tag
+

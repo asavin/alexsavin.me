@@ -26,7 +26,6 @@ tags = {}
 make-post = ->
   post = {}
   mark = []
-  console.log cut-mark.test it.body
 
   # Check if we have cut mark
   if (cut-mark.test it.body) is true
@@ -39,6 +38,9 @@ make-post = ->
     post.body = marked it.body
     post.preview = post.body
     post.read-more = false
+
+  if it.attributes.[]tags?
+    post.tags = it.attributes.tags
 
   post.title = it.attributes.name
   post.url = it.attributes.url
@@ -80,7 +82,6 @@ module.exports =
     items |> each (item) ->
       | is-post-eng item
         posts-eng.push (make-post item)
-        console.log item.attributes.tags
         if item.attributes.[]tags?
           item.attributes.tags |> each ->
             if tags[it] is undefined then tags[it]:= []
@@ -90,11 +91,34 @@ module.exports =
       item.attributes.date = format-date item.attributes.date
 
       console.log item.path
-      console.log tags
 
     # Generator will take items array and generate all static
     # files based on that. This means we can append more stuff
     # into items and have some dynamic pages generated.
+
+    # Generate pages for tags
+    console.log 'Generating tags pages...'
+    # TODO: tags pages should also be paginated at some point
+    tags-temp = obj-to-pairs tags
+    tag-pages = map ->
+      tag-name = to-slug-case it.0
+      console.log "Tag detected: #{tag-name}"
+      # Using index template for tag pages
+      page =
+        attributes:
+          name: "Tag #{tag-name}"
+          layout: 'tag.jade'
+          url: "/eng/tags/#{tag-name}/index.html"
+          items: it.1
+        body: '' # Empty body since we pass all items in attr
+        path: "src/documents/tags/#{tag-name}.md"
+        outpath: "out/eng/tags/#{tag-name}/index.html"
+        type: 'md'
+      page
+    , tags-temp
+
+    items = items.concat tag-pages
+
 
     # Paginate posts on index page
     # 5 posts per page
