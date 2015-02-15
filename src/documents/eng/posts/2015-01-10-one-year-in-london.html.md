@@ -2,6 +2,9 @@
 name : One year in London
 date: Sat Jan 10 13:20:35 2015 (UTC+0000)
 layout: post.jade
+tags:
+- london
+- reflections
 ---
 
 Exactly one year ago I moved from a hospitable, quiet and snowy Finland to the island of Great Britain. It was sort of a bold move, a leap into something very unknown. This post is a brief list of reflections, which might (or might not) help someone else to get an idea what it's like to live in London.

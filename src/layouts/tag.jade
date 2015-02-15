@@ -1,0 +1,7 @@
+extends main
+include mixins/postList
+
+block content
+  main.index-page
+    +postList(document.items)
+
