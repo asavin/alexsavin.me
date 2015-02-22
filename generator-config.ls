@@ -109,7 +109,7 @@ module.exports =
           name: "Tag #{tag-name}"
           layout: 'tag.jade'
           url: "/eng/tags/#{tag-name}/index.html"
-          items: it.1
+          items: reverse it.1
         body: '' # Empty body since we pass all items in attr
         path: "src/documents/tags/#{tag-name}.md"
         outpath: "out/eng/tags/#{tag-name}/index.html"
