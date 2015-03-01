@@ -45,6 +45,8 @@ make-post = ->
   post.title = it.attributes.name
   post.url = it.attributes.url
   post.date = it.attributes.date
+  if it.attributes.description?
+    post.description = it.attributes.description
   post.postdate = format-date it.attributes.date
 
   post
