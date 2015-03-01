@@ -16,7 +16,7 @@ tags:
 
 >In this world, a voter would identify the Irish film Song of the Sea and the Japanese film The Tale of The Princess Kaguya as “Chinese fuckin’ things,” not watch either film, and still cast a vote for the best animated feature of the year.
 
-* How an industrial designer became Apple’s greatest [product](http://www.newyorker.com/magazine/2015/02/23/shape-things-come) - (very) long read insightful on Jony Ive's side of story.
+* How an industrial designer became Apple’s greatest [product](http://www.newyorker.com/magazine/2015/02/23/shape-things-come) - (very) long read on Jony Ive's side of story.
 
 >I asked Ive about the slightly protruding camera lens that prevents the iPhone 6 from resting comfortably on its back. Ive referred to that decision — without which the phone would be slightly thicker — as “a really very pragmatic optimization.” One had to guess at the drama behind the phrase. “And, yeah...” he said.
 
