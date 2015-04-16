@@ -1,0 +1,73 @@
+==================================================================
+https://keybase.io/alexsavin
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://alexsavin.me
+  * I am alexsavin (https://keybase.io/alexsavin) on keybase.
+  * I have a public key with fingerprint 20E9 4056 40A3 D207 1F95  68AA 6CF6 48FE 4C45 1C98
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "20e9405640a3d2071f9568aa6cf648fe4c451c98",
+            "host": "keybase.io",
+            "key_id": "6cf648fe4c451c98",
+            "kid": "01013d9a8b21afa1c7ba913a11feaf5e944f6da1b1f8c9dd6cfe3ce6693ba6e17e6c0a",
+            "uid": "ac1712477b73c417a35b511874f83f19",
+            "username": "alexsavin"
+        },
+        "service": {
+            "hostname": "alexsavin.me",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1429132238,
+    "expire_in": 157680000,
+    "prev": "ef4ca78bc6caecc3392daa25a79b2d7d1d4cb9ac8c906fc4f984492b8cd8816f",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.8
+Comment: https://keybase.io/crypto
+
+yMM5AnicbZJ7UFR1FMcXUBgWJDRBYRYab45IS7i/e+/exzqDFg8RCkuGHoJsv/u7
+vwtXaHfZFzBIlJJKSFQWOhFoQjE8soxxHUemRDIfiQ4Bq1DpCEU44gwPk4pgupep
+f5p+//zmfM/3fM6cM+ebZX4arU/hw9SFZ5J1R3y+637apcmK779WRghWsZQwlREF
+ePGTZEsettvsssVJmAjSgHnaYGRoA6RE0sACiTcyHIQMkhiakzCNaCNAPEfEEflW
+h1qhYATowPGyVdGUwCyLivo//oLFhAEYACXykBNIACUIECtAHlAQAAlDyah0pyVG
+hEAAEod4UVRAmEKYYXhKgAwGLGaQASo41yIOIsACkmZZgaUQDVhIGQUjABxLSxwl
+AV41OrDdAl/FqrsQlzigW7YQ5XGEIrtlhNUdqKP81xKvhHGEzW51WpG1UMnkO502
+h0mtdJbaVGsxFsz/QMyCbBGVRSoVbmx3yFYLYQKKEzlllQpoUpmRJCkujsAlNtmO
+zbLqMLIMZ1Ce2ge7FSSWaARZTkAMghghiuJJEULSCFleIEVWBCKNBB4iZTUGRkK0
+xHM0zZMCh0SOA4xEqGMVWayESenkhHkK0iHnWaDTZcdE+fnunCUaH63Gf6mvegoa
+bWDovwcydfGRhXUp48nu7V0hzeL6lxxrEoMaRfO50CtFyTfruaobY5/8dIp8Y2nj
+7tnrurt17Tm/Boe1z3vJuXemmQbvrRHPh9KXZ5t3Bg6+t6+wLbK52vT+ZP1ERc7I
+X+M7bCGuL7aElOr9xlrm7NG15R896L8ceTq22t6OIxOzMj3PTpQUjOkuJB0MXX/y
+s9bZpoAjK36peteQ8GTNjHnnvbRx75hAjjy6JCb5Un1GesqJjbvaks6ETe5Ye2Pv
+Hp+Iq5ENTd7HR4v9fbWBd5M69px4WDSfsOLYst1RBz99bGLtndIWd+fqRu3IppZ1
+y/UrRU9wWqVYmHV82/zQ9aajoX1bN0RUfnyhM+a34Y4/dSXpsTFdmqttPQ+0uR1Z
+5eFRU9fqXcZEb8fZjsH2vWXZZ6jZuTT9gcrfG+/Zus+ZfPmA5QuDPprj2sn+bfon
+fs6cPkTMnH4Bu/3TZlzpq1r/qOpdo3v7Zkb4eLbp657EkP11z/W0m+6YneG5uy41
+sLmvlYyOfl+deNmCtnfpN++rLf48YxPpPDqfnjLQ21vr/5RYt6qzIuyr2wu590cJ
+fvrlMnfM5lb/8679PwZWbkyNHtoQ67UmRAVnRGfTfYdrXrz1bdng4fi+25byK1mr
+Y970cwV4Bk4GDeRHrxw+NTTzVoQxdlhf80om+uD1QwQucmz1BCVtqZi6P/K87lhY
+anrcD56LfwM9/adZ
+=ds5l
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/alexsavin
+
+==================================================================
