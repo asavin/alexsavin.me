@@ -1,5 +1,8 @@
 mixin footer(lang)
   footer
+    div.email
+      a(href='mailto:hello@alexsavin.me')
+        | hello@alexsavin.me
     div.rss-feed
       a.rss-feed-link(href='/feed-#{lang}.xml')
         img(src='/images/rss.png')
