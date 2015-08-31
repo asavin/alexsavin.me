@@ -10,7 +10,7 @@ tags:
 - webdev
 ---
 
-<img src="/photos/r2015-08-29-cambridge-camera-stack.jpg" class="featured" alt="Camera stack">
+<img src="/photos/2015-08-29-cambridge-camera-stack.jpg" class="featured" alt="Camera stack">
 
 It’s getting rainy in London, and tomorrow is the first day in school for local kids. This is notable since we’re living just next to one. Today is also Late Summer bank holiday, which occurs every last Monday of August for no particular reason.
 
