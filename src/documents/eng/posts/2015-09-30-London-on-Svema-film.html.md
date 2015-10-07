@@ -19,6 +19,8 @@ Few challenges apply. Firstly, the film is provided as a roll without a cassette
 
 Secondly, developing instructions for Svema films recommends using proper Soviet chemicals. This is a tricky one. Ideally you’d want to keep the amount of expired parts in your equation to a bare minimum. Meaning, if you have expired film, it’s a good idea to develop it with proper chemicals and print on a not expired paper.
 
+More...
+
 After a short search I bought 2 rolls of Svema 64 35mm film. Both were produced in the year 1991 and expired in 1993. Today they are 14 years old. Not expecting much I loaded first roll of film into a cassette, which was loaded into my Zorki-4 rangefinder camera. Armed with Leningrad-4 light meter I took a walk around Westminster on a bright sunny day, shooting most of the roll in one go. Again, expectations for a success weren’t really high.
 
 <img src="/photos/2015-09-svema/IMG_20150929_0003.jpg" class="featured" alt="London on Svema 35mm film">
