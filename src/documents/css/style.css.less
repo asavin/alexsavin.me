@@ -41,6 +41,20 @@ main {
   .column(10);
   .push(1);
 
+  p {
+    max-width: 800px;
+  }
+
+  p.featured-photo {
+    max-width: 100%;
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+
+  p.featured-photo + p.featured-photo {
+    margin-top: -40px;
+  }
+
   &.photo {
     margin: 0;
     padding-left: 1em;
