@@ -1,12 +1,34 @@
-extends main
+include mixins/header
+include mixins/footer
+include mixins/scripts
+include mixins/metaPost
 
-block content
+doctype html
+html
+  head
+    title
+      block title
+      | #{document.name} ++ Alexander Savin blog
 
-  main.base.photo
-    div.post-container.photo
-      div.date-bubble
-        | #{document.date}
-      h4.title
-        | #{document.name}
-      div!= document.output
+    block meta
+    +metaPost(document.name + ' @ Alexander Savin blog' , document.description)
 
+    link(rel='stylesheet', href='/css/style.css')
+
+  body
+    +header('eng')
+    main.base.photo
+      div.post-container.photo
+        div.date-bubble
+          | #{document.date}
+        h4.title
+          | #{document.name}
+        div!= document.output
+        if document.tags
+          div.tags
+            ul
+              each tag in document.tags
+                li
+                  a(href="/eng/tags/"+tag)!= tag
+    +footer('eng')
+    +scripts
