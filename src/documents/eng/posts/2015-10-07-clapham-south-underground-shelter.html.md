@@ -13,6 +13,8 @@ tags:
 
 This shouldn’t come as a surprise - London is full of hidden underground history. Clapham South is one of these slices of history. Situated about 10 meters under the tube station with the same name, built in 1942 to provide shelter from the German bombs. Generally these sort of places are also hidden from the public. Once a year TfL arranges guided tours to a selected locations in London. One of them is often twin station of Charing Cross, stuck somewhere in 1990s. Another one is Clapham South.
 
+More...
+
 <img src="/photos/2015-10-clapham-south/clapham-shelter-04.jpg" class="featured" alt="Clapham South underground shelter">
 
 TfL starts selling tour tickets in April, and quite often they all are sold out in a matter of days. Abandoned underground locations are a rare piece of attraction. Clapham South is not an underground tube station - it’s a full fledged shelter in case the world ends. In the beginning of the German Blitz people of London quickly figured out that one can use tube stations to try and stay alive while death is falling from the skies. Unfortunately none of those stations were built to withstand a direct bomb hit. After some serious casualties London decided to build proper shelters deep underground. And they did - 8 shelters for 8000 people each were built already in 1942. 2 more shelters were planned to build, but abandoned in the process. One of those never finished shelters was next to the St Paul’s - they were afraid that the foundation of the cathedral could be shattered.
