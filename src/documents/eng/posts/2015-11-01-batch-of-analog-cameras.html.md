@@ -26,7 +26,7 @@ Last week the box arrived, and I started the archeological process. This usually
 
 With SLR cameras this process also includes unscrewing the lens and checking the mirror. This batch got me 3 SLR cameras, and 1 rangefinder.
 
-## Zenit EM
+#### Zenit EM
 
 <img src="https://alexsavin.me/photos/2015-11-01-35mm-cameras/IMG_0268.jpg" class="featured" alt=“Zenit EM camera”>
 
@@ -38,7 +38,9 @@ Zenit:s are notoriously inelegant, heavy cameras. A proper USSR design. They are
 
 Another Zenit I own is ET model, slightly newer and even less elegant. EM seems to have a few professional features like film sensitivity gradation in both ASA and DIN units - still relevant today. Other than that it’s basically same good old Zenit camera - strong, reliable, functional and you can easily use it as a cold weapon in case of danger. Most of the camera and lens is thick solid metal.
 
-## Pentax MV
+More...
+
+#### Pentax MV
 
 <img src="https://alexsavin.me/photos/2015-11-01-35mm-cameras/IMG_0292.jpg" class="featured" alt=“Pentax MV camera”>
 
@@ -52,7 +54,7 @@ Body contains a standard Pentax-K bayonet, which is compatible with pretty much 
 
 It’s probably the lightest SLR camera I ever encountered.
 
-## Canon Canonet
+#### Canon Canonet
 
 <img src="https://alexsavin.me/photos/2015-11-01-35mm-cameras/IMG_0277.jpg" class="featured" alt=“Canon Canonet camera”>
 
@@ -68,12 +70,12 @@ Body design is uniquely beautiful. It contains one of the most elegant film rewi
 
 <img src="https://alexsavin.me/photos/2015-11-01-35mm-cameras/IMG_0282.jpg" class="featured" alt=“Canon Canonet camera”>
 
-## Kowa SE
+#### Kowa SE
 
 <img src="https://alexsavin.me/photos/2015-11-01-35mm-cameras/IMG_0287.jpg" class="featured" alt=“Kowa SE camera”>
 
 SLR camera from 1964, with integrated lens that cannot be changed. Requires a battery. Shutter doesn’t click and quick look around the internet suggests very little about how it can be repaired. It has a lot in common with Canonet by having most of the functionality automated, however it is heavier and less elegant. Honestly, not sure what I’m going to do with it.
 
-## Conclusion
+#### Conclusion
 
 Expect updates on the restoration process. Also first film is shot on Zenit EM, expect prints out soon.
