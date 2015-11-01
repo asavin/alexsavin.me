@@ -1,3 +1,17 @@
+---
+name : Batch of analog 35mm film cameras
+date: Mon Oct 26 22:00:28 2015 (UTC+0000)
+layout: post.jade
+description: Recently received a batch of analog 35mm vintage film cameras. This post contains first impressions, pictures and plans of repair. Featuring Zenit EM, Pentax MV, Canon Canonet and Kowa SE cameras.
+tags:
+- photography
+- Canon Canonet
+- Pentax
+- Kowa
+- Zenit
+- 35mm
+---
+
 <img src="https://alexsavin.me/photos/2015-11-01-35mm-cameras/IMG_0264.jpg" class="featured" alt=“Zenit EM camera”>
 
 I’ve recently acquired a lot with 4 35mm vintage film cameras. Two of them were advertised as “likely functional”, with two more as “likely not functional”. This description was provided by seller based on the fact that shutter was clicking on some cameras, but not clicking on others.
