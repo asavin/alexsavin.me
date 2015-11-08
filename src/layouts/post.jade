@@ -29,7 +29,7 @@ html
             ul
               each tag in document.tags
                 li
-                  a(href="/eng/tags/"+tag)!= tag
+                  a(href="/eng/tags/"+tag.link)!= tag.label
     +footer('eng')
     +scripts
 

@@ -14,5 +14,5 @@ mixin postList(posts)
           ul
             each tag in post.tags
               li
-                a(href="/eng/tags/"+tag)!= tag
+                a(href="/eng/tags/"+tag.link)!= tag.label
 

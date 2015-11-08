@@ -40,7 +40,11 @@ make-post = ->
     post.read-more = false
 
   if it.attributes.[]tags?
-    post.tags = it.attributes.tags
+    post.tags = []
+    for tag in it.attributes.tags
+      post.tags.push do
+        label: tag
+        link: to-slug-case tag
 
   post.title = it.attributes.name
   post.url = it.attributes.url
