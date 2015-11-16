@@ -1,5 +1,5 @@
 ---
-name : Weekend update: Barcelona, Fallout, Mamiya, GraphQL
+name: Barcelona, Fallout, Mamiya, GraphQL
 date: Sun Nov 15 22:07:51 2015 (UTC+0000)
 layout: post.jade
 description: Film festival in Barcelona, Fallout 4 system requirements, Mamiya and medium format photography, GraphQL in practice
