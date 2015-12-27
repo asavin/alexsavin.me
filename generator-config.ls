@@ -59,8 +59,6 @@ format-date = ->
   moment it .format 'DD MMM YYYY'
 
 export-feed = ->
-
-
   rssfeed = new rss do
     title: 'Alexander Savin blog'
     description: 'Posts in english'
@@ -87,11 +85,18 @@ module.exports =
 
     items |> each (item) ->
       | is-post-eng item
-        posts-eng.push (make-post item)
+        brand-new-post = make-post item
+        posts-eng.push (brand-new-post)
         if item.attributes.[]tags?
           item.attributes.tags |> each ->
             if tags[it] is undefined then tags[it]:= []
-            tags[it].push (make-post item)
+            tags[it].push (brand-new-post)
+
+          # Because JADE template will only get
+          # item.attributes, we need to update its tags
+          # for correct rendering of tags on the post
+          # dedicated page
+          item.attributes.tags = brand-new-post.tags
       | is-post-ru item
         posts-ru.push (make-post item)
       item.attributes.date = format-date item.attributes.date
