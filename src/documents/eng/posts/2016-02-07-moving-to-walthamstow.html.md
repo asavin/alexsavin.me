@@ -2,7 +2,7 @@
 name: E2 to E17
 date: Sun Feb  7 16:03:25 2016 (UTC+0000)
 layout: post.jade
-description: 
+description: Notes on moving house in London - in our case from Bethnal Green to Walthamstow
 tags:
 - moving house
 - Walthamstow
