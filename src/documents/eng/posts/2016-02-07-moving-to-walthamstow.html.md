@@ -45,7 +45,7 @@ In our case the agency ringed me 10 min later and told that they gave us wrong k
 
 Moving within boundaries of London turned out to be easy. There is a special online service where you describe scale of the disaster, and men with vans are _competing_ to provide best price and promise of a service. Stanisla honestly described 11 cast iron sewing machines, 4th floor of the original flat and lots of heavy boxes with books. She also mentioned that she will not be carrying boxes. We went on with the proposal of 2-3 men with big van for £300. Feedback thread was full of “amazing service” and “polite movers” messages. We pre-paid £60 and agreed on 8am Sunday to start the operation. Another slot would be 2pm, and that’s because they are moving 2 houses on a normal day. Impressive.
 
-Saturday we spent packing everything. Our tiny apartment featured quite a lot of stuff in the end. At some point we ran out of boxes and did a trip to the local Tesco. It didn’t sell any moving boxes, but they had bunch of boxes just lying on the floor ready to be thrown into rubbish. They gave us all boxes for free as much as we could lift.
+Saturday we spent packing everything that wasn't already packed by Stanisla during previous 2 weeks. Our tiny apartment featured quite a lot of stuff in the end. At some point we ran out of boxes and did a trip to the local Tesco. It didn’t sell any moving boxes, but they had bunch of boxes just lying on the floor ready to be thrown into rubbish. They gave us all boxes for free as much as we could lift.
 
 <img src="https://alexsavin.me/photos/2016-02-07/2016-01-23-Stanisla-move.jpg" class="featured" alt="Stanisla with boxes">
 
@@ -59,7 +59,7 @@ We have 4 rooms now with quite a bit of potential. 2 of them are quite tiny, and
 
 I’m getting a dedicated mancave room. Considering about “VR research” sign on the door.
 
-We also found an attic, which was completely unexpected. Thanks to the fact that we’re living on the top floor of the maisonette, there is a proper attic with lots of space. It is so big that someone could probably sleep in there during summer.
+We also found an attic, which was completely unexpected. Thanks to the fact that we’re living on the top floor, there is a proper attic with lots of space. It is so big that someone could probably sleep in there during summer.
 
 Kitchen is also alright. You can actually sit in it and have some lunch.
 
