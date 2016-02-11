@@ -1,8 +1,8 @@
 ---
 name: Virgin Media broadband - the honest installation guide
-date: 
+date: Thu Feb  11 05:03:25 2016 (UTC+0000)
 layout: post.jade
-description:
+description: Personal experience when installing Virgin Media fibre broadband. With trobleshooting.
 tags:
 - UX
 - Virgin Media
