@@ -17,7 +17,7 @@ In a way this felt like a filmmaking hackathon. There is only one basic rule - e
 
 In this blogpost I want to gather some ideas and words on how it  all went. And maybe put a few notes on future improvements.
 
-## Hardware
+#### Hardware
 
 I’ve used new Canon EOS 750D camera attached to Gorillapod, with external mic by RØDE. The mic turned out to be much larger than I anticipated (always check the specs!). It also required its own 9V battery. This led to 2 consequences:
 
@@ -28,7 +28,7 @@ I generally aim at the least attention on the streets. DSLR camera itself doesn�
 
 Combination of 750D with Gorillapod (and Joby’s head) was a huge success. I had no camera strap, and carried camera by having the tripod in my hands all the time. This turned out to be quite handy. At any moment I could quickly setup either a handheld shot, or put the tripod on the ground and film timelapses. Each of the Gorillapod chains on its legs also contain rubber rings which makes it super reassuring to hold with just one hand.
 
-## Camera
+#### Camera
 
 750D can shoot full HD video at 25fps. As usual it packs it into H.264. Not exactly cinema grade, but more than enough for YouTube HD. Having a photo lens in front actually contributes to cinematic experience much more than uncompressed 12bit colour - you can have selective focus and nice blurring any time you want. 
 
@@ -38,29 +38,29 @@ Auto focusing is even less reliable in the night. Bright lights confuse it a lot
 
 I ended up pre-planning shots in my head and then often switching to the manual focus and using focus ring on the lens. It takes a bit of skills to operate it fast, but it does work. Another life hack is to turn the auto focusing off and then on again. There is a touch button on the viewfinder for this specific purpose.
 
-## Music
+#### Music
 
 All music is Creative Commons and is from Soundcloud. Their advanced search is not super great, but it does allow you to search for tracks that allow you sharing and re-using. Soundcloud been my source of nice free music also for all the podcasts.
 
-## Editing
+#### Editing
 
 All the editing is done in Adobe Premiere. It is possible to use pure trackpad for that, but I think having a mouse speeds things and precision a lot. Despite editing fast you still want the video to be cut precisely on the music beat.
 
 I’ve spent roughly half of the time doing draft cut, and then going over it again and cutting out all the unnecessary parts. Generally each episode is 5 to 9 min long. As some directors say, cut away everything you absolutely can’t live without.
 
-## Streets experience
+#### Streets experience
 
 We’ve spent most of our trip around San Francisco area. Our base was at Inner Richmond, which was a very nice an quiet area. Central city is much weirder and felt less safe. A friend of mine after seeing the rig asked me to take an Uber (it was late) and not carry it around the city.
 
 Having two friends more or less constantly around helps a lot to feel safe when strolling Mission district at night. I think there was only couple of occasions when I was only by myself, and on one of those a stranger old women came to me and started asking with a huge suspicion in her voice why am I filming wires on the street?
 
-## Feedback on structure
+#### Feedback on structure
 
 Constructive feedback on the structure of episodes was mostly around things that I’ve accidentally promise on the video and then would never show. Obviously we had no script and everything was just happening and I was filming whatever was around. I also tried not to film the food we were eating, conference we were attending, and the concert we were going to out of town. On occasion the episode would become more or less random.
 
 I think structure is something that should be improved going forward. The aim is to produce a small film every day, and film does imply certain rules.
 
-## Future
+#### Future
 
 I’ve certainly enjoyed doing this. I’m not going to do this every day. But on occasions I think this is a great way of having fun.
 
