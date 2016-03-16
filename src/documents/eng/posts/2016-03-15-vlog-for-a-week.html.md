@@ -11,7 +11,7 @@ tags:
 
 During our recent trip I’ve tried making and posting short video logs every day for the whole duration of the trip. It turned out to be 8 days long, and hence 8 episodes of the vlog are now available online.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL3fggrVyKDl-83Ss_MJ7GnM3e-Y66ABFq" frameborder="0" allowfullscreen></iframe>
+<iframe class="youtube" src="https://www.youtube.com/embed/videoseries?list=PL3fggrVyKDl-83Ss_MJ7GnM3e-Y66ABFq" frameborder="0" allowfullscreen></iframe>
 
 In a way this felt like a filmmaking hackathon. There is only one basic rule - every night you must cut and release new episode whatever the cost. On average post production on each episode took about 2 hours, which often meant I had 2 hours less for sleeping. Nevertheless, it was a huge fun. Two of my colleagues - Roman and Kadi - were on the same trip, and luckily tolerated myself pointing camera at them and occasionally stopping in the middle of the busy street to film random things.
 
@@ -30,7 +30,7 @@ Combination of 750D with Gorillapod (and Joby’s head) was a huge success. I ha
 
 #### Camera
 
-750D can shoot full HD video at 25fps. As usual it packs it into H.264. Not exactly cinema grade, but more than enough for YouTube HD. Having a photo lens in front actually contributes to cinematic experience much more than uncompressed 12bit colour - you can have selective focus and nice blurring any time you want. 
+750D can shoot full HD video at 25fps. As usual it packs it into H.264. Not exactly cinema grade, but more than enough for YouTube HD. Having a photo lens in front actually contributes to cinematic experience much more than uncompressed 12bit colour - you can have selective focus and nice blurring any time you want.
 
 This leads to another issue - focusing. In the beginning video capable DSLR:s had no auto focus whatsoever. This camera does feature automatic focus during the video. It is however not great. With handheld filming you often end up shooting something close, and then changing perspective to a landscape. It takes a few seconds for the camera to figure out that the scene has changed, and another few seconds to adjust the focus. What can drive you mad is that first camera tries to adjust the focus the wrong way, and then goes all the way back, slowly.
 
