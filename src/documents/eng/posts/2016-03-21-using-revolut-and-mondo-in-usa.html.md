@@ -12,7 +12,7 @@ tags:
 
 <img src="https://alexsavin.me/photos/2016-03-21-mondo-revolut.jpg" class="featured" alt="Revolut and Mondo cards">
 
-For my recent trip to California I decided to try something new and not bring any cash across the board. Instead I’d bring Mondo and Revolut cards. Latter promised no fees when withdrawing cash from ATM:s across the world.
+For my recent trip to California I decided to try something new and not bring any cash across the border. Instead I’d bring Mondo and Revolut cards. Latter promised no fees when withdrawing cash from ATM:s across the world.
 
 In case you have no clue, both Mondo and Revolut are London based fintech startups. Mondo is generally based around the idea of slick mobile app and instant notifications, while Revolut is a multi currency card, again, with a nice mobile app and Google-grade exchange rates (meaning - you get same rate as if you’d Google it). I’ve been using both of them in the UK for about a month, but so far never abroad. Upcoming trip to the US sounded like a nice excuse to try them both in the hostile environment of travel.
 
@@ -43,3 +43,5 @@ There was another funny glitch with Bank of America. You remember when I tried f
 #### Some conclusions
 
 Depending on the location you might not even need too much cash nowadays. For cashless transactions both Revolut and Mondo are quite excellent. Just remember to PIN activate both of them (I assume Mondo will require the same procedure). For cash however ATM:s will impose a withdrawal fee, which will variate from anything between $1.50 to $6. Also never go with the ATM:s proposal to use their conversion rate. It's a trap.
+
+***UPDATE 22.3.2016:*** Mondo pinged me and said they don't require you to PIN activate card when travelling.
