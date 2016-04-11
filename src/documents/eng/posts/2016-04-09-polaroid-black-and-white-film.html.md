@@ -7,6 +7,7 @@ tags:
 - Polaroid
 - photography
 - peel apart film
+- film
 ---
 
 <p class="featured-photo"><img src="/photos/2016-04-09-polaroid-bw/polaroid-land-340.jpg" class="featured" alt="Polaroid Land 340 camera"></p>
