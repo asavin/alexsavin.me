@@ -1,14 +1,13 @@
-mixin postList(posts)
+mixin tagPostList(posts)
   each post in posts
-    div.post-container
+    div.post-container.tag-index
       div.date-bubble
         | #{post.postdate}
       a.header-link(href=post.url)
         h4.title!= post.title
-      div.post-preview!= post.preview
-      if post.readMore
-        div.read-more
-          a(href=post.url) Read more ⇨
+      div.post-preview!= post.description
+      div.read-more
+        a(href=post.url) Read article ⇨
       if post.tags
         div.tags
           ul

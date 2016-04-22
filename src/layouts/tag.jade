@@ -1,7 +1,7 @@
 extends main
-include mixins/postList
+include mixins/tagPostList
 
 block content
   main.index-page
-    +postList(document.items)
+    +tagPostList(document.items)
 
