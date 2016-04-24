@@ -19,10 +19,11 @@ html
     +header('eng')
     main.base.photo
       div.post-container.photo
-        div.date-bubble
-          | #{document.date}
-        h4.title
-          | #{document.name}
+        div.post-header
+          div.date-bubble
+            | #{document.date}
+          h4.title
+            | #{document.name}
         div!= document.output
         if document.tags
           div.tags

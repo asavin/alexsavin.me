@@ -54,6 +54,18 @@ main {
     margin-top: 40px;
     margin-bottom: 50px;
     text-align: center;
+
+    &:nth-child(1) {
+      margin-top: 0;
+    }
+
+    img {
+      transition: max-width 0.3s;
+
+      &:focus {
+        max-width: 100%;
+      }
+    }
   }
 
   p.featured-photo + p.featured-photo {
@@ -64,6 +76,14 @@ main {
     margin: 0;
     padding-left: 1em;
     width: 100%;
+    text-align: center;
+
+    .post-header {
+      max-width: 800px;
+      display: inline-block;
+      width: 100%;
+      text-align: left;
+    }
 
     .date-bubble {
       position: static;
