@@ -10,6 +10,8 @@ tags:
 - cycling
 ---
 
+<img src="https://alexsavin.me/photos/2016-04-20-cycles-amsterdam.jpg" class="featured" alt="Bicycle parking in Amsterdam">
+
 We’re back from Netherlands. Me and my wife Stanisla spent a week in Amsterdam, occasionally getting out of town. For both of us this is first visit to the Netherlands.
 
 I generally read Wikitravel before and during the visit. Amsterdam is regarded as a heaven for cyclists. However if you read Wikitravel carefully, you might suspect that something is not right with the kingdom.
