@@ -24,30 +24,19 @@ fi
 # Install boto
 #
 echo -e "\nInstalling boto 3...\n"
-pip install boto3
+pip install boto3 --upgrade --ignore-installed six
 
-echo -e "\nInstalling boto...\n"
-git clone git://github.com/boto/boto.git
-cd boto
-python setup.py install
-cd ../
-rm -rf boto
 
 #
 # Set up credentials for boto
 #
 echo -e "\nSet up boto credentials...\n"
-echo "[Credentials]" > ~/.boto
+echo "[Credentials]" > ~/.aws/credentials
 echo "aws_access_key_id = H1ht8YckYuuDsroCPWPzm6LqRCKOmuwlTMWckuqd3ydPyLqRr732ybVIxlwgXDzCIE302jzTMeccyE/+pfhrSwy3K/UrptyXhLLGLQBLDnL3pTsTgdz03AG1AhUhtap/zEX6Ek81WOZKQwO5MbgOAsplo+qbsyByHn6Bgn2hrUw= " >> ~/.boto
 echo "aws_secret_access_key = cCvPHas8TVNLPpY1w13vTytU5A04gjC6FQyQmccW1mGNOvxnVLb6+YRELlT9QB5XS1xUHPiNqmn4XqduyBbV1ib/30h6w6TAtFNalklGiDJ/jHo6ic8+yVtL0xjbUDbvniaEx7ShI64Y3vPtjlI6Da4xfSC2tEGMa50zTlE+vvk=" > ~/.boto
-
-echo -e "\nCloudFront Invalidating...\n"
-cfadmin invalidate E3D9ROOEA76369 /index.html
-echo -e "\nInvalidating is in progress...\n"
-echo -e "\nYou can check the status on the 'Invalidations' tab here https://console.aws.amazon.com/\n"
 
 #
 # Clean up
 #
 echo -e "\nRemove boto config file\n"
-rm ~/.boto
+rm ~/.aws/credentials
