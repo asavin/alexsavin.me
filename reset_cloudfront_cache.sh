@@ -23,10 +23,13 @@ fi
 #
 # Install boto
 #
+echo -e "\nInstalling boto 3...\n"
+pip install boto3
+
 echo -e "\nInstalling boto...\n"
 git clone git://github.com/boto/boto.git
 cd boto
-sudo python setup.py install
+python setup.py install
 cd ../
 rm -rf boto
 
