@@ -24,6 +24,25 @@ html {
     background-color: #FFF176;
 }
 
+header {
+  .tags {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.8em;
+
+    ul {
+      display: inline-block;
+      max-width: 800px;
+
+      li {
+        display: inline-block;
+        margin: 3px;
+        text-transform: lowercase;
+      }
+    }
+  }
+}
+
 body {
   margin: 0 auto;
   width: 98%;
@@ -172,6 +191,12 @@ main {
 }
 
 @media (max-width: 799px) {
+  header {
+    .tags {
+      display: none;
+    }
+  }
+
   .post-container {
     .date-bubble {
       position: static;

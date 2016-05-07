@@ -1,5 +1,5 @@
 
-require! <[ marked to-slug-case rss moment ]>
+require! <[ marked to-slug-case rss moment keysort-js]>
 
 # configuration options
 
@@ -22,6 +22,9 @@ posts-eng = []
 posts-ru = []
 
 tags = {}
+
+# Index of all tags
+tag-list = {}
 
 make-post = ->
   post = {}
@@ -92,6 +95,16 @@ module.exports =
             if tags[it] is undefined then tags[it]:= []
             tags[it].push (brand-new-post)
 
+            # Make index of all tags
+            slug-tag = to-slug-case it
+            if tag-list[slug-tag]?
+              tag-list[slug-tag].count += 1
+            else
+              tag-list[slug-tag] =
+                count: 1
+                label: it
+                slug: slug-tag
+
           # Because JADE template will only get
           # item.attributes, we need to update its tags
           # for correct rendering of tags on the post
@@ -114,6 +127,7 @@ module.exports =
     tag-pages = map ->
       tag-name = to-slug-case it.0
       console.log "Tag detected: #{tag-name}"
+
       # Using index template for tag pages
       page =
         attributes:
@@ -129,7 +143,6 @@ module.exports =
     , tags-temp
 
     items = items.concat tag-pages
-
 
     # Paginate posts on index page
     # 5 posts per page
@@ -180,3 +193,4 @@ module.exports =
     posts-eng: reverse posts-eng |> take posts-per-page
     posts-ru: reverse posts-ru
     pages-available: page-number > 1
+    tag-list: obj-to-pairs(keysort-js tag-list)

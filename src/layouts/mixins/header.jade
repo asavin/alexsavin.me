@@ -1,4 +1,4 @@
-mixin header(lang)
+mixin header(lang, tagList)
   header
     case lang
       when 'ru'
@@ -15,4 +15,10 @@ mixin header(lang)
           a.lang-option.active(href='/') Eng
           | /
           a.lang-option(href='/ru/') Ru
+    if tagList
+      div.tags
+        ul
+          each tag in tagList
+            li
+              a(href='/#{lang}/tags/#{tag[0]}') #{tag[1].label}
 

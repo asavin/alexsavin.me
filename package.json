@@ -9,20 +9,21 @@
     "debug": "",
     "diacritics": "",
     "front-matter": "",
+    "gulp": "^3.8.6",
+    "gulp-autoprefixer": "0.0.10",
+    "gulp-clean": "^0.3.1",
     "http-proxy": "1.0.3",
     "js-yaml": "",
+    "keysort-js": "0.0.1",
+    "marked": "",
     "moment": "",
     "prelude-ls": "1.0.3",
     "prompt": "",
     "require-dir": "",
+    "rss": "",
     "to-slug-case": "",
     "to-title-case": "",
-    "underscore": "",
-    "marked": "",
-    "rss": "",
-    "gulp": "^3.8.6",
-    "gulp-autoprefixer": "0.0.10",
-    "gulp-clean": "^0.3.1"
+    "underscore": ""
   },
   "devDependencies": {
     "LiveScript": ""
