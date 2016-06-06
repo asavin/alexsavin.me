@@ -60,6 +60,11 @@ main {
   }
 }
 
+.base {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 .post-container {
   .column(10);
   .push(1);
@@ -79,10 +84,12 @@ main {
     }
 
     img {
-      transition: max-width 0.3s;
+      transition: all 0.3s;
+      outline: 1px solid #fefefe;
 
       &:focus {
         max-width: 100%;
+        outline: 3px solid #bbb;
       }
     }
   }
@@ -207,6 +214,9 @@ main {
 }
 
 .index-page {
+  max-width: 1000px;
+  margin: 0 auto;
+
   .post-container {
   }
 }
