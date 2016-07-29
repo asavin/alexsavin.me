@@ -58,7 +58,7 @@ At this point, you want to be a part of this amazing thing. You want to be part 
 
 This is humanity at its best.
 
-## A very special cookie
+#### A very special cookie
 
 First few countries you visit while living in Finland are most likely to be Sweden, Norway and Estonia. This is when you learn that Norway is not in the EU, but somehow the border between Finland and Norway looks exactly the same, as between Sweden and Finland. No one is guarding it, and if you miss the “Welcome to Norway” sign, you might later notice that speed limits have changed, as did colours of the road signs. This is when you start learning about the special status of the Norway. In addition to the EU, there is the Schengen agreement. You might not be an EU citizen, just a tourist (or a student) - but you’re still going to enjoy a good portion of the same freedom of movement as the EU citizens do. Yes, you will not be able to work in another country, but you will be able to freely visit almost all of them. And more - as in the case of Norway, which is not even a part of the EU.
 
