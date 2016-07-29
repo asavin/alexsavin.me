@@ -22,11 +22,11 @@ There was a student exchange program however with a small town in Finland. Most 
 
 Let’s recapture for a second. I’m a 15 years old dude from Cherepovets. I need to get to Finland. How hard can this be?
 
-#### Passport
+## Passport
 
 Normally you’d get your passport at the age of 16. You _can_ apply earlier, but you’d need a special reasoning for that. I think it took me about few weeks to get that done.
 
-#### Passport for travelling
+## Passport for travelling
 
 In Soviet Russia, no one needed to travel abroad, since everything was perfect in the place of your residence. If you did need to travel, that would require you a bunch of paperwork, recommendations from you place of work or study, release papers from the army, background checks by the KGB and lots of questioning. This has changed slightly after the USSR was gone, and a new era was begun. Slightly, but not hugely. You would still need to apply for a _special_ passport that would have your name written in latin letters, and be valid for foreign visas.
 
@@ -34,7 +34,7 @@ And of course, you would need to have your “main” passport done first.
 
 It took an impressive pile of paperwork and about a month (I think) to get the travel passport done.
 
-#### Visa
+## Visa
 
 Because I needed a student visa valid for a year, I had to travel personally to the consulate of Finland in Moscow. I should mention that if you’re a lucky resident of Saint-Petersburg, you would also find a local consulate in your town. Everyone else had to travel to Moscow. I mean, I was lucky to live in the European part of the country, just a train day away.
 
@@ -46,7 +46,7 @@ All in all, **4 months of paperwork**, and you were good to go.
 
 <img src="https://alexsavin.me/photos/2016-07-28-freedom-of-movement/helsinki.jpg" class="featured" alt="Helsinki">
 
-Sometimes I feel like people don’t appreciate the freedom of movement. This is largely concentrated around people who have always had it. It’s one of those things that feel essential while you have it, but you are shocked once it is taken away. 
+Sometimes I feel like people don’t appreciate the freedom of movement. This is largely concentrated around people who have always had it. It’s one of those things that feel essential while you have it, but you are shocked once it is taken away.
 
 As far as I know, freedom of movement implemented in the EU is unique and only experience, that no other union or country has done. At least not on the same scale. Can you consider the United States as a bunch of different countries? A bit, maybe. But culture wise Europe is an amazingly diverse package, bundled with a million of different languages, foods and traditions. Yet somehow there’s an agreement to let everyone (within the Union) travel and work freely, anywhere you want.
 
@@ -54,11 +54,11 @@ With **zero paperwork**.
 
 I remember my first time crossing the border of Finland and Sweden. We were driving in a car. It was forest, then more forest, then a bridge across the river. And a sign saying “Welcome to Sweden”. No delays, no paperwork, no one guarding the border with a barbed wire. I was shocked.
 
-At this point, you want to be a part of this amazing thing. You want to be part of the EU, contribute, and make it even better. You make it the purpose of your life. Because this is one of the most amazing things humanity has ever achieved. Instead of fighting each other - give everyone freedom to live anywhere you want, to be anything you want. Free medicine, free education, social support for everyone in the union, doesn’t matter which language you’re speaking. That’s something that inspires you. 
+At this point, you want to be a part of this amazing thing. You want to be part of the EU, contribute, and make it even better. You make it the purpose of your life. Because this is one of the most amazing things humanity has ever achieved. Instead of fighting each other - give everyone freedom to live anywhere you want, to be anything you want. Free medicine, free education, social support for everyone in the union, doesn’t matter which language you’re speaking. That’s something that inspires you.
 
 This is humanity at its best.
 
-#### A very special cookie
+## A very special cookie
 
 First few countries you visit while living in Finland are most likely to be Sweden, Norway and Estonia. This is when you learn that Norway is not in the EU, but somehow the border between Finland and Norway looks exactly the same, as between Sweden and Finland. No one is guarding it, and if you miss the “Welcome to Norway” sign, you might later notice that speed limits have changed, as did colours of the road signs. This is when you start learning about the special status of the Norway. In addition to the EU, there is the Schengen agreement. You might not be an EU citizen, just a tourist (or a student) - but you’re still going to enjoy a good portion of the same freedom of movement as the EU citizens do. Yes, you will not be able to work in another country, but you will be able to freely visit almost all of them. And more - as in the case of Norway, which is not even a part of the EU.
 
@@ -68,7 +68,7 @@ My first visit to the UK was in 2009. I’ve filled 36 pages long form - this ac
 
 <img src="https://alexsavin.me/photos/2016-07-28-freedom-of-movement/london.jpg" class="featured" alt="London">
 
-Now let’s combine the bureaucracy of one country with the bureaucracy of another. 
+Now let’s combine the bureaucracy of one country with the bureaucracy of another.
 
 The Finnish visa that was about to expire was, in fact, 3 years long visa. After that, I could apply for a permanent residentship  (doesn’t equal citizenship, completely different topic). However, because I had to renew it before full 3 years of that visa would expire, I couldn’t apply for the permanent visa just yet. At that point, Finland gave me 4 years long visa, and I could finally apply for a UK tourist visa.
 
@@ -84,7 +84,7 @@ I did quite a bit of research on this topic. Technically there is an EU law that
 
 Things get more interesting at this point. You can apply for a normal tourist visa (~£60 fee), or a family member visa (£0 fee). You will still have to fill in a lengthy form of a country you want to visit, attach profile pictures (£10), proof of address (free, but you have to order it at least 2 weeks in advance) and marriage certificate (phone call to Finnish magistrate, 27 euros of fees and 2 weeks of delivery). Family member visa only allows you to travel together with your “more entitled” family member. Same-sex partners are ok. If you want to travel alone, you would still have to apply for a normal tourist visa.
 
-Once again you’ve probably noticed how quickly things became complicated. Let’s for a moment compare this to a scenario when you have a residence of a Schengen area country. You want to visit another EU country - you jump on a flight and go. 
+Once again you’ve probably noticed how quickly things became complicated. Let’s for a moment compare this to a scenario when you have a residence of a Schengen area country. You want to visit another EU country - you jump on a flight and go.
 
 Zero paperwork.
 
