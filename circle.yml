@@ -1,8 +1,6 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/mern-starter
-    # The primary container is an instance of the first list image listed. Your build commands run in this container.
     docker:
       - image: circleci/node:0.10.22
     steps:
@@ -13,7 +11,6 @@ jobs:
       - run:
           name: Compile
           command: 'lsc generate/bin/generate.ls'
-      - deploy
       - run:
           name: Deploying to S3
           command: 'aws s3 sync out/ s3://alexsavin.me/ --acl public-read'
