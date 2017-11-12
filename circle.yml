@@ -10,6 +10,3 @@ deployment:
     branch: master
     commands:
       - aws s3 sync out/ s3://alexsavin.me/ --acl public-read
-test:
-  override:
-- "true"
