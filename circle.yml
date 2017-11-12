@@ -1,16 +1,15 @@
-version: 2
-jobs:
-  build:
-    docker:
-      - image: circleci/node:4
-    steps:
-      - checkout
-      - run:
-          name: Prepare generator
-          command: 'cd generate; npm install; cd ..'
-      - run:
-          name: Compile
-          command: 'lsc generate/bin/generate.ls'
-      - run:
-          name: Deploying to S3
-          command: 'aws s3 sync out/ s3://alexsavin.me/ --acl public-read'
+machine:
+  node:
+    version: 0.10.22
+compile:
+  override:
+    - cd generate; npm install; cd ..
+    - lsc generate/bin/generate.ls
+deployment:
+  prod:
+    branch: master
+    commands:
+      - aws s3 sync out/ s3://alexsavin.me/ --acl public-read
+test:
+  override:
+- "true"
