@@ -1,0 +1,20 @@
+version: 2 # use CircleCI 2.0
+jobs: # a collection of steps
+  build: # runs not using Workflows must have a `build` job as entry point
+    working_directory: ~/alexsavin.me # directory where steps will run
+    docker: # run the steps with Docker
+      - image: circleci/node:10.22 # ...with this image as the primary container; this is where all `steps` will run
+    steps: # a collection of executable commands
+      - checkout # special step to check out source code to working directory
+      - run:
+          name: update-npm
+          command: 'sudo npm install -g npm@latest'
+      - run:
+          name: install-npm
+          command: npm install
+      - run:
+          name: generate-site
+          command: lsc generate/bin/generate.ls
+      - run:
+          name: deploy-to-aws
+          command: aws s3 sync out/ s3://alexsavin.me/ --acl public-read
