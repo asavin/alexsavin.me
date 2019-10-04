@@ -1,8 +1,8 @@
 ---
 name: Current state of things
-date: 2019-03-27T07:14:00+01:00
+date: 2019-08-15T15:53:00
 layout: post.jade
-description: 
+description: Brief update
 tags:
 - london
 ---
