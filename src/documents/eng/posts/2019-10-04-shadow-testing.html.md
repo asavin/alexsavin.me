@@ -2,7 +2,7 @@
 name: Shadow Testing
 date: 2019-10-04T07:14:00+01:00
 layout: post.jade
-description: 
+description: How to continuously release business critical software and also sleep at night - at scale
 tags:
 - QA
 - shadow testing
