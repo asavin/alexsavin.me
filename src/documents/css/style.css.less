@@ -24,6 +24,13 @@ html {
     background-color: #FFF176;
 }
 
+@media (prefers-color-scheme: dark) {
+  body {
+    filter: invert(100%) hue-rotate(180deg); // TODO: we still need to resolve the issue with photos that are not suppose to invert colors
+    background: #111;
+  }
+}
+
 header {
   .tags {
     margin-top: 20px;
