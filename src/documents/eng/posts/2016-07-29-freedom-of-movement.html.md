@@ -5,7 +5,7 @@ layout: post.jade
 description: Borders, visas, fees and role of the freedom of movement in the modern world
 tags:
 - travel
-- live in uk
+- life in uk
 - finland
 - russia
 ---
