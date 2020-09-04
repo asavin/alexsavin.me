@@ -12,7 +12,7 @@
     "gulp": "^3.8.6",
     "gulp-autoprefixer": "0.0.10",
     "gulp-clean": "^0.3.1",
-    "http-proxy": "1.0.3",
+    "http-proxy": "1.18.1",
     "js-yaml": "",
     "keysort-js": "0.0.1",
     "marked": "",
